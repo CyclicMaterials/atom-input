@@ -73,7 +73,7 @@
     "compile-css": "postcss -c postcss.config.json src/index.css -o lib/index.css; for filename in src/**/*.css; do postcss -c postcss.config.json ${filename} -o lib/${filename#src/}; done",
     "compile-lib": "babel -d lib/ src/",
     "precompile": "rm -rf lib/ && mkdir -p lib",
-    "compile": "npm run compile-lib && npm run compile-css",
+    "compile": "npm run compile-lib",
     "prepublish": "npm run compile",
     "patch": "git checkout master && release patch && npm publish --access=public",
     "minor": "git checkout master && release minor && npm publish --access=public",
