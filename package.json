@@ -1,18 +1,17 @@
 {
-  "name": "@cyclic/molecule-input",
-  "version": "6.3.1",
+  "name": "@cyclic/atom-input",
+  "version": "0.0.0",
   "author": "Frederik Krautwald",
-  "description": "A Material Design text field",
+  "description": "An input with data binding.",
   "license": "MIT",
-  "bugs": "https://github.com/CyclicMaterials/molecule-input/issues",
+  "bugs": "https://github.com/CyclicMaterials/atom-input/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CyclicMaterials/molecule-input"
+    "url": "https://github.com/CyclicMaterials/atom-input"
   },
   "keywords": [
     "cyclejs",
-    "input",
-    "Material Design"
+    "input"
   ],
   "directories": {
     "doc": "./doc",
