@@ -1,0 +1,5 @@
+demo/bundle.js
+demo/styles.css
+lib
+*.log
+node_modules
